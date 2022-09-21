@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 1000px;
+    /* background-color: black; */
+   background: linear-gradient(black, red);
+   background-repeat: no-repeat;
+   box-shadow: 5px;
+}
+.button{
+display: flex;
+justify-content: center;
+max-width: 70%;
+margin: auto;
+padding-top: 50px;
+}
+#input{
+    font-size: 20px;
+}
+#btn{
+    margin-left: 2px;
+}
+#result{
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+   font-size: 25px;
+}
+
+
+.list {
+    border: none;
+}
+.done{
+    background-color: blue;
+    color: red;
+}
